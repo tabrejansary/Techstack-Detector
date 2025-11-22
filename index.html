@@ -331,42 +331,111 @@
         .category-hosting .tech-item { border-left-color: #06b6d4; }
         .category-other .tech-item { border-left-color: #6b7280; }
 
-        /* Usage Guide */
-        .usage-guide {
-            padding: 100px 0;
-            background: #f5f7fa;
-        }
+       .usage-guide {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
 
-        .guide-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-        .guide-step {
-            background: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
 
-        .guide-step h3 {
-            font-size: 22px;
-            margin-bottom: 15px;
-            color: #2c3e50;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
 
-        .guide-step h3 i {
-            color: #667eea;
-        }
+.section-title p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
-        .guide-step p {
-            color: #6c757d;
-            margin-bottom: 15px;
-        }
+.guide-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.guide-step {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.guide-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.guide-step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.guide-step h3 i {
+    color: #3498db;
+}
+
+.guide-step p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.guide-image {
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.guide-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .usage-guide {
+        padding: 50px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .guide-step {
+        padding: 20px;
+    }
+    
+    .guide-step h3 {
+        font-size: 1.3rem;
+    }
+    
+    .guide-step p {
+        font-size: 1rem;
+    }
+}
 
         /* FAQ Section */
         .faq {
@@ -736,7 +805,7 @@
                 <h3><i class="fas fa-download"></i> Installation</h3>
                 <p>Visit the Chrome Web Store and click "Add to Chrome" to install the extension. It will automatically appear in your browser toolbar.</p>
                 <div class="guide-image">
-                    <img src="0 DETECT TECH STACKS OF ANY WEBSITE.png" alt="Installation process">
+                    <img src="oimg.png" alt="Installation process">
                 </div>
             </div>
             <div class="guide-step">
@@ -757,14 +826,14 @@
                 <h3><i class="fas fa-copy"></i> Exporting Reports</h3>
                 <p>Click the "Copy Report" button to copy a formatted list of all detected technologies to your clipboard. Use this for documentation, analysis, or presentations.</p>
                 <div class="guide-image">
-                    <img src="3 DETECT TECH STACKS OF ANY WEBSITE.png" alt="Exporting reports">
+                    <img src="5 DETECT TECH STACKS OF ANY WEBSITE (4).png" alt="Exporting reports">
                 </div>
             </div>
             <div class="guide-step">
                 <h3><i class="fas fa-sync"></i> Retrying Detection</h3>
                 <p>If a website doesn't show any technologies initially, click the "Retry" button to run the detection again. Some sites may require additional time to load all resources.</p>
                 <div class="guide-image">
-                    <img src="4 DETECT TECH STACKS OF ANY WEBSITE.png" alt="Retry detection">
+                  
                 </div>
             </div>
         </div>
