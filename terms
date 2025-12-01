@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - TechStack Detector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #222;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Terms and Conditions</h1>
+        <p><strong>Effective Date:</strong> December 1, 2025</p>
+
+        <p>Welcome to <strong>TechStack Detector</strong>. By installing or using our Chrome extension, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using TechStack Detector, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions, along with our <a href="privacy.html">Privacy Policy</a>. If you do not agree, you should not use the extension.</p>
+
+        <h2>2. License</h2>
+        <p>TechStack Detector grants you a limited, non-exclusive, non-transferable license to use the extension solely for personal or professional purposes on your browser. You may not:</p>
+        <ul>
+            <li>Reproduce, modify, or distribute the extension.</li>
+            <li>Sell, sublicense, or commercialize the extension without our written consent.</li>
+            <li>Reverse engineer or attempt to extract the source code of the extension.</li>
+        </ul>
+
+        <h2>3. User Responsibilities</h2>
+        <p>You agree to use the extension responsibly and in compliance with all applicable laws and regulations. You are solely responsible for:</p>
+        <ul>
+            <li>Your use of the extension.</li>
+            <li>Ensuring that your browser and devices meet the technical requirements to use TechStack Detector.</li>
+        </ul>
+
+        <h2>4. Data and Privacy</h2>
+        <p>TechStack Detector performs all analysis locally in your browser. As outlined in our <a href="privacy.html">Privacy Policy</a>, we do not:</p>
+        <ul>
+            <li>Collect personally identifiable information.</li>
+            <li>Send browsing data to our servers.</li>
+            <li>Use cookies or tracking technologies.</li>
+        </ul>
+        <p>By using the extension, you consent to the local processing of your browsing data on your device.</p>
+
+        <h2>5. Limitation of Liability</h2>
+        <p>TechStack Detector is provided “as is” and “as available.” We do not guarantee that the extension will always be error-free or uninterrupted. To the maximum extent permitted by law:</p>
+        <ul>
+            <li>We are not responsible for any direct, indirect, incidental, or consequential damages arising from your use of the extension.</li>
+            <li>We do not guarantee the accuracy or reliability of technology detection results.</li>
+        </ul>
+
+        <h2>6. Termination</h2>
+        <p>We may suspend or terminate your access to TechStack Detector at any time, without notice, for violation of these Terms or for any other reason. Upon termination, you must uninstall and stop using the extension.</p>
+
+        <h2>7. Changes to Terms</h2>
+        <p>We may update these Terms and Conditions from time to time. Continued use of the extension after changes are made constitutes your acceptance of the new terms.</p>
+
+        <h2>8. Governing Law</h2>
+        <p>These Terms and Conditions are governed by the laws of the country in which TechStack Detector is operated. Any disputes will be resolved in the courts of that jurisdiction.</p>
+
+        <footer>
+            &copy; 2025 TechStack Detector. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
